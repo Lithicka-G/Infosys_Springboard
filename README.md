@@ -3,7 +3,7 @@
 **Project Description**
 This repository contains Milestone 1 for Text Summarization & Paraphrasing. The goal is to compare pretrained transformer models for summarization (T5, BART, Pegasus-XSum) and paraphrasing (T5, Pegasus, BART variants). This deliverable includes an analysis notebook, code, and visual comparisons to help pick models for real projects.
 
-## What I did (in plain words):
+## What I did:
 
 I created a Colab notebook that:
 
