@@ -10,7 +10,7 @@ I created a Colab notebook that:
 * Loads two `.txt` files as inputs (you can replace with your own).
 * Produces summaries with T5, BART, and Pegasus-XSum.
 * Produces paraphrases using fine-tuned paraphrase variants of T5/Pegasus/BART.
-* Computes ROUGE scores for summarization and simple metrics for paraphrases (length, lexical overlap).
+* Computes ROUGE scores for summarization and BLEU scores for paraphrases (length, lexical overlap).
 * Generates plots comparing models so you can easily see which is better for short/long text.
 
 ## Repo structure:
