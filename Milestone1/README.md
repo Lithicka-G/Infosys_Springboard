@@ -13,15 +13,33 @@ This analysis helps identify which model is best suited for different **language
 
 ## Models Used
 
-- **T5 (Text-to-Text Transfer Transformer)**: A versatile model capable of handling both summarization and paraphrasing tasks.  
-- **BART (Bidirectional and Auto-Regressive Transformer)**: Designed for sequence generation, effective for summarization and paraphrasing.  
-- **PEGASUS (Pre-training with Extracted Gap-sentences for Abstractive Summarization)**: Specialized for abstractive summarization tasks.  
-- **SentenceTransformer (all-MiniLM-L6-v2)**: Used to compute sentence embeddings for measuring similarity between generated text and original input.
+### T5 (Text-to-Text Transfer Transformer)
+- **Version:** `t5-base`  
+- A versatile model capable of handling **both summarization and paraphrasing** tasks.  
+
+### BART (Bidirectional and Auto-Regressive Transformer)
+- **Version:** `facebook/bart-base`  
+- Designed for **sequence generation**, effective for summarization and paraphrasing.  
+
+### PEGASUS (Pre-training with Extracted Gap-sentences for Abstractive Summarization)
+- **Version:** `google/pegasus-xsum`  
+- Specialized for **abstractive summarization**, producing creative and high-quality summaries.  
+
+### SentenceTransformer (all-MiniLM-L6-v2)
+- **Version:** `all-MiniLM-L6-v2`  
+- Used to compute **sentence embeddings**, helping measure similarity between generated text and original input.
+
+---
+
+## Why These Models Were Used
+- **T5**: Chosen for its **flexibility**, able to perform both summarization and paraphrasing.  
+- **BART**: Selected for **accurate summarization and paraphrasing**, preserving content well.  
+- **PEGASUS**: Used for **high-quality abstractive summarization**, suitable for creative summaries.  
+- **SentenceTransformer**: Helps **evaluate model outputs** by comparing similarity with original texts.
 
 ---
 
 ## Stepwise Workflow
-
 1. **Install Dependencies**: Python libraries for transformer models, evaluation metrics, embeddings, and plotting.  
 2. **Import Modules**: Hugging Face pipelines, sentence transformers, cosine similarity, and text processing utilities.  
 3. **Load Pre-trained Models**: Summarization and paraphrasing models loaded on CPU by default.  
@@ -35,7 +53,6 @@ This analysis helps identify which model is best suited for different **language
 ---
 
 ## Execution and Runtime Details
-
 - **CPU Limitation**: Initial execution on CPU was slow due to large model sizes and text volume.  
 - **GPU Acceleration**: Switching to GPU (e.g., on Google Colab) significantly improved inference speed.  
 - **Memory Management**: Chunked input texts and dynamic device allocation prevented memory overflow.  
@@ -44,7 +61,6 @@ This analysis helps identify which model is best suited for different **language
 ---
 
 ## Challenges Faced and Solutions
-
 - **Large Model Sizes**: Split input data into smaller chunks to avoid memory issues.  
 - **Slow CPU Processing**: Transitioned to GPU for faster computation.  
 - **Model Warnings/Errors**: Added exception handling for PEGASUS to improve stability.  
@@ -53,10 +69,11 @@ This analysis helps identify which model is best suited for different **language
 ---
 
 ## Conclusion on Model Suitability
+- **BART**: Best for **summarization**, produces accurate summaries closely matching original text.  
+- **T5**: Ideal for **paraphrasing**, balancing similarity with variation.  
+- **PEGASUS**: Performs well for **creative or abstractive summarization/paraphrasing**.
 
-- **BART**: Best for **summarization** where accuracy and content preservation are priorities. Produces summaries that closely match the original text.  
-- **T5**: Ideal for **paraphrasing** where similarity to the original is important but variation is desired.  
-- **PEGASUS**: Performs well for **summarization**, but paraphrased outputs are more abstract, suitable for creative or novel paraphrasing needs.
+---
 
 **Summary Recommendations**:
 
@@ -66,6 +83,5 @@ This analysis helps identify which model is best suited for different **language
 | Paraphrasing      | T5              | Balanced similarity and diversity |
 | Creative Paraphrasing | PEGASUS     | Produces abstract or novel outputs |
 
-These conclusions are supported by similarity metrics and output length analyses visualized in the project charts.
 
 
