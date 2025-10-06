@@ -13,19 +13,19 @@ This analysis helps identify which model is best suited for different **language
 
 ## Models Used
 
-### 1.T5 (Text-to-Text Transfer Transformer)
+### 1. T5 (Text-to-Text Transfer Transformer)
 - **Version:** `t5-base`  
 - A versatile model capable of handling **both summarization and paraphrasing** tasks.  
 
-### 2.BART (Bidirectional and Auto-Regressive Transformer)
+### 2. BART (Bidirectional and Auto-Regressive Transformer)
 - **Version:** `facebook/bart-base`  
 - Designed for **sequence generation**, effective for summarization and paraphrasing.  
 
-### 3.PEGASUS (Pre-training with Extracted Gap-sentences for Abstractive Summarization)
+### 3. PEGASUS (Pre-training with Extracted Gap-sentences for Abstractive Summarization)
 - **Version:** `google/pegasus-xsum`  
 - Specialized for **abstractive summarization**, producing creative and high-quality summaries.  
 
-### 4.SentenceTransformer (all-MiniLM-L6-v2)
+### 4. SentenceTransformer (all-MiniLM-L6-v2)
 - **Version:** `all-MiniLM-L6-v2`  
 - Used to compute **sentence embeddings**, helping measure similarity between generated text and original input.
 
