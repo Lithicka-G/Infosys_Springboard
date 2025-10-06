@@ -8,8 +8,7 @@ Infosys Springboard is an internship and learning program designed to help stude
 - Build a professional portfolio of achievements.
   
 ## Chosen Domain: Artificial Intelligence (AI)
-For this internship, I have selected **Artificial Intelligence (AI)** as my domain. 
-This choice aligns with my passion for machine learning, data analytics, and intelligent systems, and I am eager to delve deeper into these areas through practical applications and projects.
+I chose **Artificial Intelligence (AI)** because I am interested in machine learning, data analysis, and smart systems. I look forward to learning more by working on real projects.
 
 ## Purpose of this Repository
 This repository showcases:  
