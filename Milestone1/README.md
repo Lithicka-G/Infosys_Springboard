@@ -68,9 +68,4 @@ This analysis helps identify which model is best suited for different **language
 
 These conclusions are supported by similarity metrics and output length analyses visualized in the project charts.
 
----
-
-## Repository Purpose
-
-This repository is intended to **showcase milestones, projects, and achievements** from the TextMorph project. It highlights **technical skills, model evaluation, and implementation experience**, serving as a record of **growth and learning in NLP and AI-focused text generation tasks**.
 
