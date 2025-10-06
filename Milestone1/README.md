@@ -48,7 +48,6 @@ This analysis helps identify which model is best suited for different **language
 6. **Paraphrasing**: Perform paraphrasing on summaries with each model, managing exceptions for stability.  
 7. **Analysis**: Compute cosine similarities between original and generated text embeddings.  
 8. **Visualization**: Compare output length distributions and similarity scores through charts.  
-9. **Sample Outputs**: Display examples for manual and qualitative assessment.
 
 ---
 
