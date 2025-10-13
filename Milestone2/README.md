@@ -19,7 +19,7 @@ The project demonstrates:
 
 ## Models Used
 
-### Abstractive Models
+### Abstractive Models:
 
 #### 1. TinyLlama  
 - **Version:** `TinyLlama/TinyLlama-1.1B-Chat-v1.0`  
@@ -39,7 +39,7 @@ The project demonstrates:
 
 ---
 
-### Extractive Models
+### Extractive Models:
 
 #### 1. TextRank  
 - **Algorithm:** Graph-based ranking using PageRank on sentence embeddings (`all-MiniLM-L6-v2`).  
