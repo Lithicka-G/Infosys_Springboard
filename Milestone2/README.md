@@ -13,24 +13,33 @@ The project demonstrates:
 
 ## Models Used
 
-### 1. TinyLlama (Abstractive)
+### Abstractive Models
+
+#### 1. TinyLlama  
 - **Version:** `TinyLlama/TinyLlama-1.1B-Chat-v1.0`  
 - Lightweight chat model offering fast summarization while preserving meaning.
 
-### 2. Phi 2 (Abstractive)
+#### 2. Phi 2  
 - **Version:** `microsoft/phi-2`  
 - Compact reasoning-based model providing efficient and coherent summaries.
 
-### 3. BART-Large-CNN (Abstractive)
+#### 3. BART-Large-CNN  
 - **Version:** `facebook/bart-large-cnn`  
 - Classic transformer fine-tuned for high-quality summarization.
 
-### 4. Gemma 2B-IT (Abstractive)
+#### 4. Gemma 2B-IT  
 - **Version:** `google/gemma-2b-it`  
 - Google’s instruction-tuned model delivering fluent, human-like summaries.
 
-### 5. TextRank (Extractive)
-- **Algorithm:** Graph-based ranking using PageRank on sentence embeddings (`all-MiniLM-L6-v2`).
+---
+
+### Extractive Models
+
+#### 1. TextRank  
+- **Algorithm:** Graph-based ranking using PageRank on sentence embeddings (`all-MiniLM-L6-v2`).  
+- Produces summaries by selecting key sentences from the input text.
+
+---
 
 ---
 
