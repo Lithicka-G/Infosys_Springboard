@@ -7,7 +7,13 @@ It extends the first milestone by integrating multiple transformer-based models,
 The project demonstrates:
 - Generation of concise, accurate summaries from diverse text domains  
 - Metric-based comparison of multiple models  
-- Visualization of performance to support model selection  
+- Visualization of performance to support model selection
+
+---
+
+### What Are Abstractive and Extractive Models?
+- **Abstractive Models:** Generate new text to summarize content meaningfully, often rewording and compressing information like a human would.
+- **Extractive Models:** Select and combine the most important sentences from the source text without rewriting them.  
 
 ---
 
