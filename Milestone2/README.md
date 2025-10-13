@@ -93,26 +93,4 @@ The project demonstrates:
 - **TinyLlama** offered fast, concise summaries.  
 - **TextRank** provided a transparent extractive comparison.
 
----
-
-## Conclusion on Model Performance
-
-| Task | Recommended Model | Reason |
-|------|--------------------|--------|
-| **Overall Summarization** | **Gemma 2B-IT** | Best balance of fluency, accuracy, and semantic retention |
-| **Resource-Efficient Summarization** | **Phi 2** | Lightweight and fast |
-| **Stable Baseline** | **BART-Large-CNN** | Consistent and reliable |
-| **Extractive Benchmark** | **TextRank** | Simple and transparent |
-
----
-
-## Summary Recommendations
-
-| Scenario | Best Model | Reason |
-|-----------|------------|--------|
-| High-quality abstractive summarization | **Gemma 2B-IT** | Strong semantic and ROUGE performance |
-| Fast and light summarization | **Phi 2** | Efficient inference with concise outputs |
-| Traditional baseline comparison | **BART-Large-CNN** | Reliable and stable |
-| Extractive summary reference | **TextRank** | Algorithmic benchmark |
-
 
