@@ -1,78 +1,131 @@
-🧠 TextMorph: Advanced Text Summarization and Model Comparison
-Project Overview
+# TextMorph: Advanced Text Summarization and Model Comparison
 
-TextMorph Milestone 2 focuses on advanced text summarization using both abstractive and extractive techniques.
-It extends the first milestone by integrating multiple transformer-based models, adding interactive Google Colab UIs, and visualizing evaluation metrics to identify which model performs best.
+## Project Overview
+**TextMorph Milestone 2** focuses on **advanced text summarization** using both *abstractive* and *extractive* techniques.  
+It extends the first milestone by integrating multiple transformer-based models, adding **interactive Google Colab UIs**, and visualizing **evaluation metrics** to identify which model performs best.
 
 The project demonstrates:
+- Generation of concise, accurate summaries from diverse text domains  
+- Metric-based comparison of multiple models  
+- Visualization of performance to support model selection  
 
-Generation of concise, accurate summaries from diverse text domains
+---
 
-Metric-based comparison of multiple models
+## Models Used
 
-Visualization of performance to support model selection
+### 1. TinyLlama (Abstractive)
+- **Version:** `TinyLlama/TinyLlama-1.1B-Chat-v1.0`  
+- Lightweight chat model offering fast summarization while preserving meaning.
 
-Models Used
+### 2. Phi 2 (Abstractive)
+- **Version:** `microsoft/phi-2`  
+- Compact reasoning-based model providing efficient and coherent summaries.
 
-TinyLlama (Abstractive)
-Version: TinyLlama/TinyLlama-1.1B-Chat-v1.0
-Lightweight chat model offering fast summarization while preserving meaning.
+### 3. BART-Large-CNN (Abstractive)
+- **Version:** `facebook/bart-large-cnn`  
+- Classic transformer fine-tuned for high-quality summarization.
 
-Phi 2 (Abstractive)
-Version: microsoft/phi-2
-Compact reasoning-based model providing efficient and coherent summaries.
+### 4. Gemma 2B-IT (Abstractive)
+- **Version:** `google/gemma-2b-it`  
+- Google’s instruction-tuned model delivering fluent, human-like summaries.
 
-BART-Large-CNN (Abstractive)
-Version: facebook/bart-large-cnn
-Classic transformer fine-tuned for high-quality summarization.
+### 5. TextRank (Extractive)
+- **Algorithm:** Graph-based ranking using PageRank on sentence embeddings (`all-MiniLM-L6-v2`).
 
-Gemma 2B-IT (Abstractive)
-Version: google/gemma-2b-it
-Google’s instruction-tuned model delivering fluent, human-like summaries.
+---
 
-TextRank (Extractive)
-Algorithm: Graph-based ranking using PageRank on sentence embeddings (all-MiniLM-L6-v2).
+## Why These Models Were Used
+- **TinyLlama:** Fast and efficient summarization for limited resources.  
+- **Phi 2:** Reasoning-based outputs with strong semantic accuracy.  
+- **BART:** Reliable baseline for abstractive summarization.  
+- **Gemma:** High-quality summaries through instruction tuning.  
+- **TextRank:** Non-neural extractive benchmark for comparison.  
 
-Why These Models Were Used
+---
 
-TinyLlama: Fast and efficient summarization for limited resources.
+## Stepwise Workflow
 
-Phi 2: Reasoning-based outputs with strong semantic accuracy.
+1. **Install Dependencies** – Set up required libraries like `transformers`, `torch`, `datasets`, and `ipywidgets`.  
+2. **Import Modules** – Load APIs, metrics, and visualization tools.  
+3. **Hugging Face Setup** – Create account, accept Gemma license, add token as `HF_TOKEN` in Colab.  
+4. **Model Initialization** – Load TinyLlama, Phi, BART, Gemma, and TextRank with GPU optimization.  
+5. **Data Preparation** – Use 10 sample texts from various domains for testing.  
+6. **Summarization** – Generate summaries from all models on the same inputs.  
+7. **TextRank (Extractive)** – Apply embeddings and PageRank for extractive summaries.  
+8. **Evaluation Metrics** – Compute ROUGE, semantic similarity, and readability scores.  
+9. **Interactive UIs** – Use Colab widgets to compare or select models for summarization.  
+10. **Visualization** – Plot graphs comparing model performance across metrics.  
 
-BART: Reliable baseline for abstractive summarization.
+---
 
-Gemma: High-quality summaries through instruction tuning.
+## Execution and Runtime Details
+- **Runtime:** Designed for **Google Colab GPU** environment.  
+- **Precision:** Uses `torch.bfloat16` for efficient memory usage.  
+- **Device Mapping:** Automatically assigns models to CPU/GPU.  
+- **Error Handling:** Managed token and memory issues with safe exception blocks.  
 
-TextRank: Non-neural extractive benchmark for comparison.
+---
 
-Stepwise Workflow
+## Challenges Faced and Solutions
 
-Install Dependencies – Set up required libraries like transformers, torch, datasets, and ipywidgets.
+| Challenge | Solution |
+|------------|-----------|
+| Large model memory usage | Used `torch.bfloat16` and `device_map="auto"`. |
+| Gemma authorization errors | Added Hugging Face token and license acceptance. |
+| Slow inference on CPU | Switched to GPU runtime in Colab. |
+| Inconsistent summary lengths | Applied uniform decoding and length limits. |
 
-Import Modules – Load APIs, metrics, and visualization tools.
+---
 
-Hugging Face Setup – Create account, accept Gemma license, add token as HF_TOKEN in Colab.
+## Results and Analysis
 
-Model Initialization – Load TinyLlama, Phi, BART, Gemma, and TextRank with GPU optimization.
+| Model | ROUGE-L (↑) | Semantic Similarity (↑) | Readability (↑) | Summary Length (↓) |
+|--------|--------------|--------------------------|------------------|--------------------|
+| **Gemma 2B-IT** | Highest | High | Balanced | Medium |
+| **BART-Large-CNN** | High | Moderate | Good | Medium |
+| **Phi 2** | Medium | High | Excellent | Short |
+| **TinyLlama** | Moderate | Moderate | High | Very Short |
+| **TextRank** | Lowest | Low | Good | Short |
 
-Data Preparation – Use 10 sample texts from various domains for testing.
+- **Gemma 2B-IT** produced the most coherent and human-like summaries.  
+- **BART** remained a consistent baseline.  
+- **Phi 2** achieved good performance with low resource use.  
+- **TinyLlama** offered fast, concise summaries.  
+- **TextRank** provided a transparent extractive comparison.
 
-Summarization – Generate summaries from all models on the same inputs.
+---
 
-TextRank (Extractive) – Apply embeddings and PageRank for extractive summaries.
+## Conclusion on Model Performance
 
-Evaluation Metrics – Compute ROUGE, semantic similarity, and readability scores.
+| Task | Recommended Model | Reason |
+|------|--------------------|--------|
+| **Overall Summarization** | **Gemma 2B-IT** | Best balance of fluency, accuracy, and semantic retention |
+| **Resource-Efficient Summarization** | **Phi 2** | Lightweight and fast |
+| **Stable Baseline** | **BART-Large-CNN** | Consistent and reliable |
+| **Extractive Benchmark** | **TextRank** | Simple and transparent |
 
-Interactive UIs – Use Colab widgets to compare or select models for summarization.
+---
 
-Visualization – Plot graphs comparing model performance across metrics.
+## Summary Recommendations
 
-Execution and Runtime Details
+| Scenario | Best Model | Reason |
+|-----------|------------|--------|
+| High-quality abstractive summarization | **Gemma 2B-IT** | Strong semantic and ROUGE performance |
+| Fast and light summarization | **Phi 2** | Efficient inference with concise outputs |
+| Traditional baseline comparison | **BART-Large-CNN** | Reliable and stable |
+| Extractive summary reference | **TextRank** | Algorithmic benchmark |
 
-Runtime: Designed for Google Colab GPU environment.
+---
 
-Precision: Uses torch.bfloat16 for efficient memory usage.
+## Usage (in Google Colab)
 
-Device Mapping: Automatically assigns models to CPU/GPU.
+1. Upload the notebook **`Milestone2__packed.ipynb`** to Google Colab.  
+2. Enable GPU runtime: **Runtime → Change runtime type → GPU**.  
+3. Add your Hugging Face token in Colab Secrets as `HF_TOKEN`.  
+4. Run all cells to generate summaries, evaluate metrics, and view UI-based model comparisons.
 
-Error Handling: Managed token and memory issues with safe exception blocks.
+---
+
+**End of README**  
+*Created as part of Infosys TextMorph – Milestone 2: Advanced Text Summarization with Interactive UIs and Visualizations.*
+
