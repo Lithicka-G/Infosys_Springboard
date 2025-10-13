@@ -37,8 +37,6 @@ The project demonstrates:
 - **Version:** `google/gemma-2b-it`  
 - Google’s instruction-tuned model delivering fluent, human-like summaries.
 
----
-
 ### Extractive Models:
 
 #### 1. TextRank  
