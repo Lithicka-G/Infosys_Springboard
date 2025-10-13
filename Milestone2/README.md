@@ -115,17 +115,4 @@ The project demonstrates:
 | Traditional baseline comparison | **BART-Large-CNN** | Reliable and stable |
 | Extractive summary reference | **TextRank** | Algorithmic benchmark |
 
----
-
-## Usage (in Google Colab)
-
-1. Upload the notebook **`Milestone2__packed.ipynb`** to Google Colab.  
-2. Enable GPU runtime: **Runtime → Change runtime type → GPU**.  
-3. Add your Hugging Face token in Colab Secrets as `HF_TOKEN`.  
-4. Run all cells to generate summaries, evaluate metrics, and view UI-based model comparisons.
-
----
-
-**End of README**  
-*Created as part of Infosys TextMorph – Milestone 2: Advanced Text Summarization with Interactive UIs and Visualizations.*
 
