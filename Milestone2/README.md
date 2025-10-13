@@ -41,8 +41,6 @@ The project demonstrates:
 
 ---
 
----
-
 ## Why These Models Were Used
 - **TinyLlama:** Fast and efficient summarization for limited resources.  
 - **Phi 2:** Reasoning-based outputs with strong semantic accuracy.  
