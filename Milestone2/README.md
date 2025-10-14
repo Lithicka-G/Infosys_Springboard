@@ -120,7 +120,7 @@ The project demonstrates:
 
 - SECTION B: Summarize with Specific Models (CheckBox UI)
 
-![image_alt](https://github.com/Lithicka-G/Infosys_Springboard/blob/b34e89c5475a41ca8e822f6972e2758d09585cc6/Screenshot%202025-10-14%20214205.png)
+![image_alt](https://github.com/Lithicka-G/Infosys_Springboard/blob/53a59c39b36f711fdf17c0e8914ca9e4618d2435/Screenshot%202025-10-14%20214630.png)
 
 ---
 
