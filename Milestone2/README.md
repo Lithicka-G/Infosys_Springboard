@@ -70,32 +70,32 @@ The project demonstrates:
 
 ## Adding Hugging Face Token to Google Colab Securely
 **Step 1:**  Get your Hugging Face token
-        - Go to Hugging Face
-        - Log in and go to Settings → Access Tokens.
-        - Click Create new token (choose Read or Write depending on your need).
-        - Copy the token.
+- Go to Hugging Face
+- Log in and go to Settings → Access Tokens.
+- Click Create new token (choose Read or Write depending on your need).
+- Copy the token.
         
 **Step 2:** Colab method using Secrets
-        - Go to File → Settings → Secrets → + Add Secret
-        - Key: HF_TOKEN
-        - Value: paste your token
+- Go to File → Settings → Secrets → + Add Secret
+- Key: HF_TOKEN
+- Value: paste your token
 
 ---
 
 ## Secure Gemma Access Token in Google Colab
 **Step 1:** Log in to Hugging Face 
-        - Go to Hugging Face and log in.
+- Go to Hugging Face and log in.
 
 **Step 2:** Find the Gemma model
-        - Search for Gemma in the Hugging Face Models section (e.g., google/gemma-2b-it).
-        - Open the model page.
+- Search for Gemma in the Hugging Face Models section (e.g., google/gemma-2b-it).
+- Open the model page.
 
 **Step 3:** Check model access
-        - Some Gemma models are restricted (private or gated).
-        - On the model page, you’ll see “Use in Transformers” or “Access Repository”.
-        - If the model is gated, click “Request Access”.
-        - You may need to agree to terms or fill a short form.
-        - Wait for mail approval from the Hugging Face team.
+- Some Gemma models are restricted (private or gated).
+- On the model page, you’ll see “Use in Transformers” or “Access Repository”.
+- If the model is gated, click “Request Access”.
+- You may need to agree to terms or fill a short form.
+- Wait for mail approval from the Hugging Face team.
 
 ---
 
