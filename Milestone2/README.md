@@ -120,7 +120,7 @@ The project demonstrates:
 
 - SECTION B
 
-![image_alt]()
+![image_alt](https://github.com/Lithicka-G/Infosys_Springboard/blob/b34e89c5475a41ca8e822f6972e2758d09585cc6/Screenshot%202025-10-14%20214205.png)
 
 ---
 
