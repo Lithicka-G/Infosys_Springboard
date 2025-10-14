@@ -114,8 +114,13 @@ The project demonstrates:
 
 ---
 ## UI Interface
-
+- SECTION A:
+  
 ![image alt](https://github.com/Lithicka-G/Infosys_Springboard/blob/daaaf27580ef9cdf754d8ef0cefe4a4a5eb00e35/Screenshot%202025-10-14%20212801.png)
+
+- SECTION B
+
+![image_alt]()
 
 ---
 
