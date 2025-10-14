@@ -113,8 +113,10 @@ The project demonstrates:
 10. **Visualization** – Plot graphs comparing model performance across metrics.  
 
 ---
-
+##UI Interface
 ![image alt](https://github.com/Lithicka-G/Infosys_Springboard/blob/daaaf27580ef9cdf754d8ef0cefe4a4a5eb00e35/Screenshot%202025-10-14%20212801.png)
+
+---
 
 ## Execution and Runtime Details
 - **Runtime:** Designed for **Google Colab GPU** environment.  
