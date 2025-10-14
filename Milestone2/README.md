@@ -54,6 +54,18 @@ The project demonstrates:
 
 ---
 
+## 10 Sample Texts From Different Domains:
+1. Nature
+2. Climate Change
+3. Artificial Intelligence
+4. Stock Market
+5. Pollution
+6. Life in Japan
+7. Afterlife
+8. Pollution
+9. Cybersecurity
+10. Anime
+
 ## Stepwise Workflow
 
 1. **Install Dependencies** – Set up required libraries like `transformers`, `torch`, `datasets`, and `ipywidgets`.  
