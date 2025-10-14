@@ -114,6 +114,8 @@ The project demonstrates:
 
 ---
 
+![image alt]()
+
 ## Execution and Runtime Details
 - **Runtime:** Designed for **Google Colab GPU** environment.  
 - **Precision:** Uses `torch.bfloat16` for efficient memory usage.  
