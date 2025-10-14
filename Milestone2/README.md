@@ -66,6 +66,8 @@ The project demonstrates:
 9. Cybersecurity
 10. Anime
 
+---
+
 ## Stepwise Workflow
 
 1. **Install Dependencies** – Set up required libraries like `transformers`, `torch`, `datasets`, and `ipywidgets`.  
