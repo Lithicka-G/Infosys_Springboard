@@ -72,7 +72,7 @@ Developed using Streamlit, it enables users to transform and understand text thr
 | Name | Contribution | GitHub |
 |------|---------------|--------|
 | Aakanksha Jadhav | Implemented JWT-based authentication, user profiles, and session management | [GitHub](https://github.com/aakankshajadav) |
-| Kushgra Hada | Designed and developed the UI/UX, dashboard layout, and navigation | [GitHub](https://github.com/kushgrahada) |
+| Kushgra Hada | Designed and developed the UI/UX, dashboard layout, and navigation | [GitHub](https://github.com/Kushagra92004) |
 | Sherwin Jonathan | Integrated summarization and paraphrasing models, optimized performance | [GitHub](https://github.com/sherwinjonathan) |
 
 ---
