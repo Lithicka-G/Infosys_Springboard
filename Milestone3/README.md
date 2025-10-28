@@ -69,12 +69,12 @@ Developed using Streamlit, it enables users to transform and understand text thr
 
 ## Contributors
 
-| **Name**             | **Contribution**                                                                                                                               |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Lithicka**      | Implemented readability analysis using NLTK indices, developed visual complexity indicators, and created real-time scoring and metrics display |
-| **Aakanksha Jadhav**  | Implemented JWT-based authentication, user profiles, and session management                                                                    |
-| **Kushagra Hada**     | Designed and developed the UI/UX, dashboard layout, and navigation                                                                             |
-| **Sherwin Jonathan** | Integrated summarization and paraphrasing models, optimized performance                                                                        |
+| Name | Contribution | GitHub |
+|------|---------------|--------|
+| Lithicka | Implemented readability analysis using NLTK indices, developed visual complexity indicators, and created real-time scoring and metrics display | [GitHub](https://github.com/yourusername) |
+| Aakanksha Jadav | Implemented JWT-based authentication, user profiles, and session management | [GitHub](https://github.com/aakankshajadav) |
+| Kushgra Hada | Designed and developed the UI/UX, dashboard layout, and navigation | [GitHub](https://github.com/kushgrahada) |
+| Sherwin Jonathan | Integrated summarization and paraphrasing models, optimized performance | [GitHub](https://github.com/sherwinjonathan) |
 
 ---
 
@@ -118,4 +118,7 @@ Developed using Streamlit, it enables users to transform and understand text thr
 - **Deployment:** Streamlit Cloud / Local  
 
 ---
+## Team 1
+TextMorph was developed by a collaborative team of AI and software enthusiasts committed to building an intuitive and secure NLP platform.  
+The team combined expertise in **NLP modeling, web development, UI/UX design, and security** to create a seamless experience for text summarization and paraphrasing.
 
