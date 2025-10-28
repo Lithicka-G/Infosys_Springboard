@@ -72,8 +72,8 @@ Developed using Streamlit, it enables users to transform and understand text thr
 | **Name**             | **Contribution**                                                                                                                               |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Lithicka**      | Implemented readability analysis using NLTK indices, developed visual complexity indicators, and created real-time scoring and metrics display |
-| **Aakanksha Jadav**  | Implemented JWT-based authentication, user profiles, and session management                                                                    |
-| **Kushgra Hada**     | Designed and developed the UI/UX, dashboard layout, and navigation                                                                             |
+| **Aakanksha Jadhav**  | Implemented JWT-based authentication, user profiles, and session management                                                                    |
+| **Kushagra Hada**     | Designed and developed the UI/UX, dashboard layout, and navigation                                                                             |
 | **Sherwin Jonathan** | Integrated summarization and paraphrasing models, optimized performance                                                                        |
 
 ---
