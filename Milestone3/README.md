@@ -79,20 +79,24 @@ Developed using Streamlit, it enables users to transform and understand text thr
 ---
 
 ## Installation and Setup
-To set up TextMorph locally, follow these steps:
 
-First, clone the repository from GitHub to your local machine.  
-Next, install all the required dependencies mentioned in the `requirements.txt` file using pip.  
-Ensure that you have Python version 3.8 or higher installed on your system before proceeding.  
+1. **Clone the Repository**  
+   Clone the TextMorph repository from GitHub to your local machine.
 
-After installation, configure the necessary environment variables.  
-Set up a JWT secret key for authentication token generation and add your Ngrok authentication token for secure tunneling and public access.  
-These environment variables are important for maintaining the application’s security and functionality.  
+2. **Install Dependencies**  
+   Install all required Python packages using pip. Ensure your system has **Python 3.8 or higher** before installing.
 
-Once the configuration is complete, launch the Streamlit application to start the local development server.  
-The application will automatically open in your web browser, allowing you to access TextMorph locally.  
+3. **Configure Environment Variables**  
+   Set up the following environment variables:  
+   - `JWT_SECRET_KEY` – for authentication token generation  
+   - `NGROK_AUTH_TOKEN` – for secure tunneling and public access  
+   These are essential for the application’s security and proper functionality.
 
-Finally, navigate to the localhost address provided by Streamlit in your browser, register a new account, or log in to begin using all the features of TextMorph.
+4. **Launch the Application**  
+   Start the Streamlit application to run the local development server. The app will open in your web browser, allowing you to access TextMorph.
+
+5. **Register or Log In**  
+   Create a new account or log in to start using all the features of TextMorph.
 
 ---
 
