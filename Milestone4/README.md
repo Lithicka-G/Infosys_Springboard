@@ -7,7 +7,7 @@
 
 <body>
 
-<h1>✨ TextMorph — AI-powered Content Simplification, Summarization & Paraphrasing</h1>
+<h1>TextMorph: AI-Powered Text Summarization & Paraphrasing Platform</h1>
 <p>
 TextMorph is an AI-driven text processing system designed to make complex content more understandable, 
 structured, and reader-friendly. Built around state-of-the-art NLP models, the platform transforms 
