@@ -9,12 +9,7 @@
 
 <h1>TextMorph: AI-Powered Text Summarization & Paraphrasing Platform</h1>
 <p>
-TextMorph is an AI-driven text processing system designed to make complex content more understandable, 
-structured, and reader-friendly. Built around state-of-the-art NLP models, the platform transforms 
-dense writing into clearer formats without losing meaning or context. Whether used by students, 
-researchers, writers, or professionals, TextMorph provides a seamless way to simplify, summarize, 
-or rewrite content with exceptional quality.
-</p>
+TextMorph is an advanced AI-driven platform that transforms complex text into clear, accessible content through intelligent summarization and paraphrasing. Built with cutting-edge transformer models and secure authentication, it serves students, researchers, and professionals seeking to enhance text comprehension and communication.
 
 <nav>
   <a href="#usage">Get Started</a> |
