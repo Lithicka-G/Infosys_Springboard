@@ -175,11 +175,11 @@ Evaluation Metrics:
 
 | Name | Contribution | GitHub |
 |------|--------------|--------|
-| [Full Name] | Project lead & architecture design | [@username] |
-| [Full Name] | ML models & fine-tuning | [@username] |
-| [Full Name] | Backend API & database | [@username] |
-| [Full Name] | Frontend & UI/UX | [@username] |
-| [Full Name] | Deployment & DevOps | [@username] |
+| Lithicka G | Login part, Authentication, Admin dashboard (Global activity), History in User Login| [@username] |
+| Vijendra Cherupally | User Login (Data Augmentation and Model Testing part), Docker, Readme | [@username] |
+| Immadisetti Tejo Thoshani | User Login (Paraphrasing), User Profile | [@username] |
+| Jaagruthi Musinada | User Login( Summarization), User Feedback and PPT | [@username] |
+| Aakanksha Sainath Jadhav | Admin Dashboard ( User Management, Analytics and Insights) | [@username] |
 
 ---
 ## 📜 License
