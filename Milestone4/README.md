@@ -5,7 +5,7 @@ TextMorph is an advanced AI-driven platform that transforms complex text into cl
 
 ---
 
-## Key Features
+## 📑 Table of Contents
 
 ### User Authentication & Security
 - Secure JWT-based authentication system  
