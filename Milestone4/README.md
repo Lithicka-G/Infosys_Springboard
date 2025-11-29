@@ -4,6 +4,14 @@
 TextMorph is an advanced AI-driven platform that transforms complex text into clear, accessible content through intelligent summarization and paraphrasing. Built with cutting-edge transformer models and secure authentication, it serves students, researchers, and professionals seeking to enhance text comprehension and communication.
 
 ---
+## 🔗 Quick Links
+
+| Category | Details |
+|----------|---------|
+| **📽️ Demo Video** | Coming Soon |
+| **🧩 Source Code** | [This Repository](link-to-your-repo) |
+| **🐳 Docker Support** | Yes |
+| **🧠 AI Models** | Pegasus · BART · FLAN-T5 |
 
 ## 📑 Table of Contents
 - [About The Project](#AboutTheProject)
