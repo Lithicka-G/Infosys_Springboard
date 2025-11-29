@@ -112,8 +112,27 @@ TextMorph uses advanced AI to automatically:
 ---
 ## 📂 Project Structure
 
-
-
+TextMorph/
+│
+├── README.md
+├── app.py
+├── requirements.txt
+├── Dockerfile
+│
+├── models/
+│   └── drive_models/
+│       ├── flan_t5_medical/
+│       ├── flan_t5_news/
+│       ├── flan_t5_academic/
+│       └── flan_t5_legal/
+│
+├── assets/
+│   └── screenshots/
+│
+└── docs/
+    ├── architecture.png
+    ├── er_diagram.png
+    └── README_FULL.html
 
 
 ---
