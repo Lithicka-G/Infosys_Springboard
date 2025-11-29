@@ -141,14 +141,14 @@ TextMorph/
 ---
 ## ⚙️ Installation & Setup
 
-###Google Colab (Recommended for GPU)
-####Upload Files to Google Colab:
+### Google Colab (Recommended for GPU):
+Upload Files to Google Colab:
 - Go to Google Colab
 - Create a new notebook
 - Upload login.py to your Colab environment
 - Upload requirements.txt (or create it as shown below)
 
-####Install Dependencies:
+### Install Dependencies:
 
 ```python
 # Run this cell in Colab
@@ -156,7 +156,7 @@ TextMorph/
 !pip install --upgrade transformers --quiet
 !pip install pyngrok==7.0.0 --quiet
 ```
-###Mount Google Drive (for domain models):
+Mount Google Drive (for domain models):
 
 ```python
 from google.colab import drive
@@ -164,7 +164,7 @@ drive.mount('/content/drive')
 ```
 
 ### Configuration
-####1. Ngrok Authtoken Setup
+1. Ngrok Authtoken Setup
 How to get Ngrok Authtoken:
 - Go to ngrok.com
 - Sign up for a free account
@@ -176,7 +176,7 @@ Update in code:
 ngrok.set_auth_token("your-actual-ngrok-authtoken-here")
 ```
 
-####2. JWT Secret Key
+2. JWT Secret Key
 Create a strong secret key:
 - Use any random string (minimum 32 characters)
 - Example: "my_super_secure_jwt_secret_key_2024!"
@@ -187,7 +187,7 @@ Create a strong secret key:
 SECRET_KEY = "your-strong-secret-key-here-min-32-chars"
 ```
 
-###3. SMTP Email Configuration
+3. SMTP Email Configuration
 How to get Gmail App Password:
 - Go to your Google Account: https://myaccount.google.com/
 - Enable 2-Factor Authentication
