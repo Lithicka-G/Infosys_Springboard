@@ -15,21 +15,21 @@ TextMorph is an advanced AI-driven platform that transforms complex text into cl
 
 ---
 ## 📑 Table of Contents
-- [About The Project](#AboutTheProject)
-- [Problem Statement](#ProblemStatement)
-- [Key Features](#KeyFeatures)
-- [Architecture](#Architecture)
-- [Tech Stack](#TechStack)
-- [Models Used](#ModelsUsed)
-- [Project Structure](#ProjectStructure)
-- [Installation & Setup](#Installation&Setup)
-- [Usage Guide](#UsageGuide)
-- [Admin Controls](#Admincontrols)
-- [Dataset & Evaluation](#Dataset&Evaluation)
-- [Technical Challenges and Solutions](#Technical-Challenges-and-Solutions)
-- [Screenshots](#Screenshots)
-- [Team](#Team)
-- [License](#License)
+
+- About The Project <a id="AboutTheProject"></a>
+- Problem Statement <a id="ProblemStatement"></a>
+- Key Features <a id="KeyFeatures"></a>
+- Architecture <a id="Architecture"></a>
+- Models Used <a id="ModelsUsed"></a>
+- Tech Stack <a id="TechStack"></a>
+- Project Structure <a id="ProjectStructure"></a>
+- Installation & Setup <a id="InstallationSetup"></a>
+- Usage Guide <a id="UsageGuide"></a>
+- Datasets & Evaluation <a id="DatasetEvaluation"></a>
+- Technical Challenges and Solutions <a id="TechnicalChallengesSolutions"></a>
+- Screenshots <a id="Screenshots"></a>
+- Team <a id="Team"></a>
+- License <a id="License"></a>
 
 ---
 ## 📘 About The Project
