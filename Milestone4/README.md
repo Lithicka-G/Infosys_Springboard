@@ -8,8 +8,8 @@ TextMorph is an advanced AI-driven platform that transforms complex text into cl
 
 | Category | Details |
 |----------|---------|
-| **📽️ Demo Video** | Coming Soon |
-| **🧩 Source Code** | [This Repository](link-to-your-repo) |
+| **📽️ Demo Video** | https://github.com/Lithicka-G/Infosys_Springboard/blob/main/Milestone4/Milestone%204%20Video.mp4 |
+| **🧩 Source Code** | https://github.com/Lithicka-G/Infosys_Springboard/blob/main/Milestone4/Milestone4.ipynb |
 | **🐳 Docker Support** | Yes |
 | **🧠 AI Models** | Pegasus · BART · FLAN-T5 |
 
@@ -112,8 +112,6 @@ TextMorph uses advanced AI to automatically:
 ---
 ## 📂 Project Structure
 
-
-
 ```bash
 TextMorph/
 │
@@ -164,7 +162,7 @@ drive.mount('/content/drive')
 ```
 
 ### Configuration
-1. Ngrok Authtoken Setup
+#### 1. Ngrok Authtoken Setup
 How to get Ngrok Authtoken:
 - Go to ngrok.com
 - Sign up for a free account
@@ -176,7 +174,7 @@ Update in code:
 ngrok.set_auth_token("your-actual-ngrok-authtoken-here")
 ```
 
-2. JWT Secret Key
+#### 2. JWT Secret Key
 Create a strong secret key:
 - Use any random string (minimum 32 characters)
 - Example: "my_super_secure_jwt_secret_key_2024!"
@@ -187,7 +185,7 @@ Create a strong secret key:
 SECRET_KEY = "your-strong-secret-key-here-min-32-chars"
 ```
 
-3. SMTP Email Configuration
+#### 3. SMTP Email Configuration
 How to get Gmail App Password:
 - Go to your Google Account: https://myaccount.google.com/
 - Enable 2-Factor Authentication
@@ -229,7 +227,7 @@ pyngrok==7.0.0
 - Email: Admin@gmail.com
 - Password: Admin123
 
-**Note: This account is automatically created when you first run the application.**
+***Note: This account is automatically created when you first run the application.***
 
 #### Run the Application in Colab
 - Clcik Run all in the colab and click on the Streamlit Url at the end to open the app in Streamlit.
