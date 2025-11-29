@@ -43,10 +43,10 @@ TextMorph transforms complex, lengthy text into clear summaries and readable par
  Millions of students, researchers, and professionals struggle with lengthy, technical, or poorly structured documents. Manually summarizing or paraphrasing complex content is time-consuming and requires strong linguistic skills.
 
 TextMorph uses advanced AI to automatically:
-- 🔹 Improve readability while preserving key information
-- 🔹 Condense long documents into clear, concise summaries
-- 🔹 Rewrite content in simpler or more professional language
-- 🔹 Help users learn and understand complex material faster
+- Improve readability while preserving key information
+- Condense long documents into clear, concise summaries
+- Rewrite content in simpler or more professional language
+- Help users learn and understand complex material faster
 
 ---
 ## 🚀 Key Features
