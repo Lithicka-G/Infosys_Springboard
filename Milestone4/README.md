@@ -278,8 +278,14 @@ Evaluation Metrics:
 
 ---
 ## 📸 Screenshots
+### Login Page
+<img width="1917" height="912" alt="Screenshot 2025-11-27 161518" src="https://github.com/user-attachments/assets/498ff27c-73e6-4353-b00d-f4a261c4c408" />
 
+### User Page
+<img width="1914" height="909" alt="Screenshot 2025-11-27 161741" src="https://github.com/user-attachments/assets/78648f12-f38d-43cd-8272-8ae9f9cf0285" />
 
+### Admin Page
+<img width="1918" height="908" alt="Screenshot 2025-11-27 162730" src="https://github.com/user-attachments/assets/5b37f9b9-faec-46dd-b5a7-26bb4fec7c59" />
 
 ---
 ## 👥 Team
