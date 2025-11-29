@@ -89,22 +89,8 @@ TextMorph uses advanced AI to automatically:
 📌ER Model Diagram
 <img width="6468" height="3489" alt="er diagram" src="https://github.com/user-attachments/assets/e9155251-1d81-460a-9b7c-30c2998de01f" />
 
-
-
 ---
-## 🛠 Tech Stack
 
-
-- **Frontend:** Streamlit  
-- **Authentication:** JWT Tokens  
-- **NLP Models:** PEGASUS, BART, FLAN-T5  
-- **Text Analysis:** NLTK  
-- **Security and Access:** Ngrok  
-- **Deployment:** Docker 
-
-
-
----
 ## 🤖 Models Used
 
 | Model | Purpose | Framework |
@@ -115,6 +101,10 @@ TextMorph uses advanced AI to automatically:
 | NLTK Metrics | Readability scoring | NLTK Toolkit |
 
 **Supports model versioning:** custom
+
+---
+## 🛠 Tech Stack
+<img width="1536" height="1024" alt="Tech Stack" src="https://github.com/user-attachments/assets/8cf80b8e-660d-406c-a923-b94d2d628593" />
 
 ---
 ## 📂 Project Structure
