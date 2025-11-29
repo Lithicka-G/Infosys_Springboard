@@ -26,6 +26,7 @@ TextMorph is an advanced AI-driven platform that transforms complex text into cl
 - [Usage Guide](#UsageGuide)
 - [Admin Controls](#Admincontrols)
 - [Dataset & Evaluation](#Dataset&Evaluation)
+- [Technical Challenges and Solutions](#Technical-Challenges-and-Solutions)
 - [Screenshots](#Screenshots)
 - [Team](#Team)
 - [License](#License)
