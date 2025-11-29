@@ -141,10 +141,100 @@ TextMorph/
 ---
 ## ⚙️ Installation & Setup
 
+###Google Colab (Recommended for GPU)
+####Upload Files to Google Colab:
+- Go to Google Colab
+- Create a new notebook
+- Upload login.py to your Colab environment
+- Upload requirements.txt (or create it as shown below)
 
+####Install Dependencies:
 
+```python
+# Run this cell in Colab
+!pip install streamlit bcrypt pyjwt pandas pypdf nltk transformers qrcode[pil] torch --quiet
+!pip install --upgrade transformers --quiet
+!pip install pyngrok==7.0.0 --quiet
+```
+###Mount Google Drive (for domain models):
 
+```python
+from google.colab import drive
+drive.mount('/content/drive')
+```
 
+### Configuration
+####1. Ngrok Authtoken Setup
+How to get Ngrok Authtoken:
+- Go to ngrok.com
+- Sign up for a free account
+- Go to Your Authtoken
+- Copy your authtoken (looks like: 2abc123def456...)
+
+Update in code:
+```python
+ngrok.set_auth_token("your-actual-ngrok-authtoken-here")
+```
+
+####2. JWT Secret Key
+Create a strong secret key:
+- Use any random string (minimum 32 characters)
+- Example: "my_super_secure_jwt_secret_key_2024!"
+- Or generate one: https://www.jwt.io/
+
+- Update in code:
+```python
+SECRET_KEY = "your-strong-secret-key-here-min-32-chars"
+```
+
+###3. SMTP Email Configuration
+How to get Gmail App Password:
+- Go to your Google Account: https://myaccount.google.com/
+- Enable 2-Factor Authentication
+- Go to Security → App passwords
+- Generate app password for "Mail"
+- Copy the 16-character app password
+
+Update in code:
+```python
+EMAIL_CONFIG = {
+    'smtp_server': 'smtp.gmail.com',
+    'smtp_port': 587,
+    'sender_email': 'your-email@gmail.com',  # Your actual Gmail
+    'sender_password': 'abcd efgh ijkl mnop',  # 16-char app password
+    'timeout': 30
+}
+```
+#### Requirements File
+Create requirements.txt with this content:
+
+```txt
+streamlit==1.28.0
+bcrypt==4.0.1
+PyJWT==2.8.0
+pandas==2.0.3
+pypdf==3.17.0
+nltk==3.8.1
+transformers==4.35.0
+torch==2.1.0
+qrcode[pil]==7.4.2
+scikit-learn==1.3.0
+matplotlib==3.7.2
+seaborn==0.12.2
+wordcloud==1.9.2
+pyngrok==7.0.0
+```
+
+#### Default Admin Account
+- Email: Admin@gmail.com
+- Password: Admin123
+
+**Note: This account is automatically created when you first run the application.**
+
+#### Run the Application in Colab
+- Clcik Run all in the colab and click on the Streamlit Url at the end to open the app in Streamlit.
+- Make sure the runtime is set to GPU
+- It will take around 2-3 minutes to load all models in streamlit
 
 ---
 ## 📝 Usage Guide
