@@ -84,6 +84,8 @@ TextMorph uses advanced AI to automatically:
 ---
 ## 🧩 Architecture
 📌 Architecture Diagram
+![Architecture Diagram](https://github.com/user-attachments/assets/ab796282-3ce1-4933-a393-d01f57cdeee1)
+)
 📌 Database ER Model
 
 ---
