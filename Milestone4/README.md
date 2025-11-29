@@ -112,6 +112,9 @@ TextMorph uses advanced AI to automatically:
 ---
 ## 📂 Project Structure
 
+
+
+```bash
 TextMorph/
 │
 ├── README.md
@@ -133,7 +136,7 @@ TextMorph/
     ├── architecture.png
     ├── er_diagram.png
     └── README_FULL.html
-
+```
 
 ---
 ## ⚙️ Installation & Setup
