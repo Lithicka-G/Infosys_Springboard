@@ -37,7 +37,7 @@ TextMorph transforms complex, lengthy text into clear summaries and readable par
 - Built as part of Infosys Springboard Internship Final Project
 - Target users: Students, educators, researchers, bloggers, media professionals
 
-#### Key Stastics:
+#### Key Statistics:
 - 86% of students already use AI in their studies.
 - In the 2024 Global AI Student Survey (3,839 students, 16 countries), 86% said they use AI tools for coursework. Among the most common use-cases:
 - 33% use AI to summarize documents
@@ -178,11 +178,11 @@ Evaluation Metrics:
 
 | Name | Contribution | GitHub |
 |------|--------------|--------|
-| Lithicka G | Login part, Authentication, Admin dashboard (Global activity), History in User Login| [@username] |
-| Vijendra Cherupally | User Login (Data Augmentation and Model Testing part), Docker, Readme | [@username] |
-| Immadisetti Tejo Thoshani | User Login (Paraphrasing), User Profile | [@username] |
-| Jaagruthi Musinada | User Login( Summarization), User Feedback and PPT | [@username] |
-| Aakanksha Sainath Jadhav | Admin Dashboard ( User Management, Analytics and Insights) | [@username] |
+| Lithicka G | Login part, Authentication, Admin dashboard (Global activity), History in User Login| https://github.com/Lithicka-G |
+| Vijendra Cherupally | User Login (Data Augmentation and Model Testing part), Docker, Readme | https://github.com/vijayendracherupally |
+| Immadisetti Tejo Thoshani | User Login (Paraphrasing), User Profile | https://github.com/Thoshani |
+| Jaagruthi Musinada | User Login( Summarization), User Feedback and PPT | https://github.com/Jaagruthi-Musinada |
+| Aakanksha Sainath Jadhav | Admin Dashboard ( User Management, Analytics and Insights) | https://github.com/aakankshajadhav412-alt |
 
 ---
 ## 📜 License
