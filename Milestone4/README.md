@@ -1,8 +1,7 @@
 # ✨TextMorph: Text Summarization and Paraphrasing Platform
 
 ## Project Overview
-TextMorph is an NLP-powered web application designed for text summarization, paraphrasing, and readability analysis.  
-Developed using Streamlit, it enables users to transform and understand text through intelligent summarization and complexity-based paraphrasing — all within a secure and intuitive interface.
+TextMorph is an advanced AI-driven platform that transforms complex text into clear, accessible content through intelligent summarization and paraphrasing. Built with cutting-edge transformer models and secure authentication, it serves students, researchers, and professionals seeking to enhance text comprehension and communication.
 
 ---
 
