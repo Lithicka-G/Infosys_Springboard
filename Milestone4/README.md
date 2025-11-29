@@ -87,7 +87,7 @@ TextMorph uses advanced AI to automatically:
 ![Architecture Diagram](https://github.com/user-attachments/assets/ab796282-3ce1-4933-a393-d01f57cdeee1)
 
 📌ER Model Diagram
-![ER Model Diagram](<img width="6468" height="3489" alt="er diagram" src="https://github.com/user-attachments/assets/e9155251-1d81-460a-9b7c-30c2998de01f" />
+(<img width="6468" height="3489" alt="er diagram" src="https://github.com/user-attachments/assets/e9155251-1d81-460a-9b7c-30c2998de01f" />
 
 
 
