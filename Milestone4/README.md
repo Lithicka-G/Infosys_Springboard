@@ -34,16 +34,15 @@ TextMorph is an advanced AI-driven platform that transforms complex text into cl
 ---
 ## 📘 About The Project
 TextMorph transforms complex, lengthy text into clear summaries and readable paraphrases using adaptive AI models. It supports specialized domains like academic, medical, and legal content, and delivers accurate results through an intuitive interface—no machine learning background required. Optimized for both CPU and CUDA, it’s built for research, education, and enterprise use.
+- Built as part of Infosys Springboard Internship Final Project
+- Target users: Students, educators, researchers, bloggers, media professionals
 
-# Key Stastics:
+#### Key Stastics:
 - 86% of students already use AI in their studies.
 - In the 2024 Global AI Student Survey (3,839 students, 16 countries), 86% said they use AI tools for coursework. Among the most common use-cases:
 - 33% use AI to summarize documents
 - 28% use AI to paraphrase a document
 
-- Built as part of Infosys Springboard Internship Final Project
-- Target users: Students, educators, researchers, bloggers, media professionals
- 
 ---
 ## 🎯 Problem Statement
  Millions of students, researchers, and professionals struggle with lengthy, technical, or poorly structured documents. Manually summarizing or paraphrasing complex content is time-consuming and requires strong linguistic skills.
