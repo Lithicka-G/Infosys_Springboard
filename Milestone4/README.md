@@ -21,19 +21,8 @@ TextMorph is an advanced AI-driven platform that transforms complex text into cl
 
 ---
 
-## Technical Implementation
+## 📘 Overview
 
-### Models and Tools
-- PEGASUS – Abstractive summarization  
-- BART – Sequence-to-sequence text generation  
-- FLAN-T5 – Versatile text-to-text transformer  
-- NLTK – Readability analysis and text preprocessing  
-
-### Security and Deployment
-- JWT for secure session management  
-- Ngrok for tunneling and public access  
-- Streamlit-based responsive web interface  
-- Secure file upload and session handling  
 
 ---
 
