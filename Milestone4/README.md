@@ -93,18 +93,18 @@ TextMorph uses advanced AI to automatically:
 
 ## 🤖 Models Used
 
-| Model | Purpose | Framework |
+| Model | Purpose | Purpose |
 |-------|---------|-----------|
-| Pegasus | High-quality abstractive summarization | 🤗 Transformers |
-| BART | Balanced summarization & rewriting | 🤗 Transformers |
-| FLAN-T5 | Paraphrasing & complexity control | 🤗 Transformers |
-| NLTK Metrics | Readability scoring | NLTK Toolkit |
+| Pegasus | High-quality abstractive summarization |	Summarization & ParaphrasingT |
+| BART | Balanced summarization & rewriting | Summarization & Paraphrasing |
+| FLAN-T5 | Paraphrasing & complexity control | Summarization & Paraphrasing |
+| Custom Model FLAN-T5 | Domian-Specific NLP tasks | Data Augmentation & Model Tuning |
 
 **Supports model versioning:** custom
 
 ---
 ## 🛠 Tech Stack
-<img width="1536" height="1024" alt="Tech Stack" src="https://github.com/user-attachments/assets/8cf80b8e-660d-406c-a923-b94d2d628593" />
+<img width="1536" height="1024" alt="Tech Stack" src="https://github.com/user-attachments/assets/37c7b29d-c19e-4b16-b81b-27f530dfc56d" />
 
 ---
 ## 📂 Project Structure
