@@ -158,7 +158,7 @@ Evaluation Metrics:
 | Readability Metrics | Clarity and comprehension scoring |
 
 ---
-## Technical Challenges and Solutions
+## 🔧 Technical Challenges and Solutions
 
 | Area | Challenge | Solution |
 |------|------------|-----------|
