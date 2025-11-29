@@ -6,34 +6,18 @@ TextMorph is an advanced AI-driven platform that transforms complex text into cl
 ---
 
 ## 📑 Table of Contents
-
-### User Authentication & Security
-- Secure JWT-based authentication system  
-- Role-based access with user profiles  
-- Reading preferences and content type management  
-- Encrypted login and registration interface  
-
-### Readability Analysis Dashboard
-- Real-time readability scoring using multiple indices:
-  - Flesch-Kincaid Readability Score  
-  - Gunning Fog Index  
-  - SMOG Index  
-- Color-coded complexity visualization  
-- Drag-and-drop file upload  
-- Comprehensive text metrics display  
-
-### Multi-Level Summarization
-- Integrated models: PEGASUS, BART, and FLAN-T5  
-- Adjustable summary lengths: Short, Medium, Long  
-- Side-by-side comparison of original and summarized text  
-- Summary quality evaluation using ROUGE metrics  
-- Word count tracking and compression ratio calculation  
-
-### Complexity-Based Paraphrasing
-- Multiple complexity levels: Beginner, Intermediate, Advanced  
-- Readability grade-level control  
-- Style-based paraphrasing options  
-- Original vs paraphrased text comparison  
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Usage Guide](#usage-guide)
+- [Architecture](#architecture)
+- [Models & Loading](#models--loading)
+- [Datasets & Evaluation](#datasets--evaluation)
+- [Roadmap](#roadmap)
+- [Screenshots](#screenshots)
+- [Security & Privacy](#security--privacy)
+- [Team](#team)
+- [License](#license)
 
 ---
 
