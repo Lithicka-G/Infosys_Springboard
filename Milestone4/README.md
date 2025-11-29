@@ -1,4 +1,4 @@
-# TextMorph: Text Summarization and Paraphrasing Platform
+# ✨TextMorph: Text Summarization and Paraphrasing Platform
 
 ## Project Overview
 TextMorph is an NLP-powered web application designed for text summarization, paraphrasing, and readability analysis.  
