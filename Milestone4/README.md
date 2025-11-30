@@ -35,7 +35,7 @@ TextMorph transforms complex, lengthy text into clear summaries and readable par
 - Built as part of Infosys Springboard Internship Final Project
 - Target users: Students, educators, researchers, bloggers, media professionals
 
-  #### Key Statistics:
+#### Key Statistics:
 - 86% of students already use AI in their studies.
 - In the 2024 Global AI Student Survey (3,839 students, 16 countries), 86% said they use AI tools for coursework. Among the most common use-cases:
 - 33% use AI to summarize documents
