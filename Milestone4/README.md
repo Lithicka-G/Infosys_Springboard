@@ -293,7 +293,7 @@ Evaluation Metrics:
 | Name | Contribution | GitHub |
 |------|--------------|--------|
 | Lithicka G | Login part, Authentication, Admin dashboard (Global activity), History in User Login| https://github.com/Lithicka-G |
-| Vijendra Cherupally | User Login (Data Augmentation and Model Testing part), Docker, Readme | https://github.com/vijayendracherupally |
+| Vijayendra Cherupally | User Login (Data Augmentation and Model Testing part), Docker, Readme | https://github.com/vijayendracherupally |
 | Immadisetti Tejo Thoshani | User Login (Paraphrasing), User Profile | https://github.com/Thoshani |
 | Jaagruthi Musinada | User Login( Summarization), User Feedback and PPT | https://github.com/Jaagruthi-Musinada |
 | Aakanksha Sainath Jadhav | Admin Dashboard ( User Management, Analytics and Insights) | https://github.com/aakankshajadhav412-alt |
