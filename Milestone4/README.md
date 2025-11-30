@@ -35,12 +35,6 @@ TextMorph transforms complex, lengthy text into clear summaries and readable par
 - Built as part of Infosys Springboard Internship Final Project
 - Target users: Students, educators, researchers, bloggers, media professionals
 
-#### Key Statistics:
-- 86% of students already use AI in their studies.
-- In the 2024 Global AI Student Survey (3,839 students, 16 countries), 86% said they use AI tools for coursework. Among the most common use-cases:
-- 33% use AI to summarize documents
-- 28% use AI to paraphrase a document
-
 ---
 ## 🎯 Problem Statement
  Millions of students, researchers, and professionals struggle with lengthy, technical, or poorly structured documents. Manually summarizing or paraphrasing complex content is time-consuming and requires strong linguistic skills.
@@ -50,6 +44,12 @@ TextMorph uses advanced AI to automatically:
 - Condense long documents into clear, concise summaries
 - Rewrite content in simpler or more professional language
 - Help users learn and understand complex material faster
+
+  #### Key Statistics:
+- 86% of students already use AI in their studies.
+- In the 2024 Global AI Student Survey (3,839 students, 16 countries), 86% said they use AI tools for coursework. Among the most common use-cases:
+- 33% use AI to summarize documents
+- 28% use AI to paraphrase a document
 
 ---
 ## 🚀 Key Features
@@ -98,7 +98,7 @@ TextMorph uses advanced AI to automatically:
 
 | Model | Purpose | Purpose |
 |-------|---------|-----------|
-| Pegasus | High-quality abstractive summarization |	Summarization & ParaphrasingT |
+| Pegasus | High-quality abstractive summarization |	Summarization & Paraphrasing |
 | BART | Balanced summarization & rewriting | Summarization & Paraphrasing |
 | FLAN-T5 | Paraphrasing & complexity control | Summarization & Paraphrasing |
 | Custom Model FLAN-T5 | Domian-Specific NLP tasks | Data Augmentation & Model Tuning |
